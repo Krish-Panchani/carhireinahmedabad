@@ -1,7 +1,12 @@
+import DemoSlider from "@/components/Swiper";
 import Image from "next/image";
+import dataSlider from "./slider-data.json";
+
 
 export default function Home() {
   return (
-   <h1>Car Hire in Ahmedabad</h1>
+   <>
+    <DemoSlider data={dataSlider} />
+   </>
   );
 }
