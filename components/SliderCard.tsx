@@ -33,11 +33,26 @@ function SliderCard({ data }: Props) {
       />
       <motion.div className=" absolute z-10 flex h-full items-end p-4">
         <motion.div>
+
+          <motion.div layout className="flex items-center gap-2">
+            <motion.img
+              layoutId={data.car_img}
+              alt="Transition Image"
+              src={data.car_img}
+              className="h-full w-full"
+            />
+          </motion.div>
+
+
           <motion.div
             layout
             className=" mb-2 h-[2px] w-3 rounded-full bg-white"
-          ></motion.div>
-          <motion.p layoutId={data.location} className="text-xs text-[#D5D5D6]">
+          >
+          </motion.div>
+
+
+
+          <motion.p className="text-xs text-[#D5D5D6]">
             {data.location}
           </motion.p>
           <motion.h1
