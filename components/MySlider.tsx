@@ -77,39 +77,44 @@ export default MySlider;
 
 const sliderData = [
   {
-    img: "/1.png",
+    img: "/img/1.png",
     location: "Welcome Back",
     description:
       "The journey to Machu Picchu typically starts in the mountain city of Cusco, which was the capital city of the Inca Empire",
-    title: "Car Hire In Ahmedabad",
+    title: "CAR HIRE IN AHMEDABAD",
+    car_img: "",
   },
   {
-    img: "/2.png",
-    title: "The Grand Canyon",
+    img: "/img/2.png",
+    title: "Swift Dzire",
     description:
       "The earth's geological history opens before your eyes in a mile-deep chasm",
-    location: "Arizona",
+    location: "5 Seater",
+    car_img: "/img/dzire.png",
   },
   {
-    img: "/3.png",
-    title: "Masai Mara",
+    img: "/img/3.png",
+    title: "Kia Carens",
     description:
       "Wild animals in their natural environment, luxury safari lodges",
-    location: "Kenya",
+    location: "7 Seater",
+    car_img: "/img/Kia-Carens.png",
   },
   {
-    img: "/4.png",
-    title: "Angkor Wat",
+    img: "/img/4.png",
+    title: "Urbania",
     description:
       "A stunning ancient jungle city with hundreds of intricately constructed temples",
-    location: "Cambodia",
+    location: "17 Seater",
+    car_img: "/img/Urbania.png",
   },
   {
-    img: "/7.png",
-    title: "Bali",
+    img: "/img/7.png",
+    title: "Innova Crysta",
     description:
       "Tropical beaches, volcano hikes, ancient temples, and friendly people",
-    location: "Indonesia",
+    location: "7 Seater",
+    car_img: "/img/InnovaCrysta.png",
   },
 ];
 
